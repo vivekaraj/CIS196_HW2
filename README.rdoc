@@ -1,5 +1,21 @@
 Vivek A. Raj
 CIS 196 HW 2
 
+Note: I created a brand new repository for HW2. Therefore, there should be no confusion between this and HW1.
+http://rocky-sea-9340.herokuapp.com/
+
+What I Did
+I used my newly acquired knowledge of HTML & CSS to re-create Google's homepage. 
+
+Problems
+1) I accidentally referred to the same CSS header twice, which caused me to over-ride my code.
+--I carefully re-examined my CSS code to see if any repeats exist.
+2) I had trouble updating my github/heroku page.
+--Don't forget to re-type "git add -A" and "git commit -m 'message'" every time you update your files.
+3) Some of my hyper links did not work because they were being over-lapped by another div.
+--Shrink the over-lapping div using HTML/CSS. You can find out whether a div is over-lapping another by using "Inspect element".
+
 Project ideas
-1) Build a web app 
+1) Create a website to connect job seekers and potential employees. Allow users to browse through different categories of professions and search through these categories to find the jobs that are best suited for them. I can also create a survey of necessary information needed from employees and employers so that employers can best find opportunities that suit them and so that employees can best find employees for their firm. 
+2) Create a website to keep track of daily food intake. Find data of common nutrition information from common foods eaten daily. Allow user to enter additional information. Display ideal recommendations for optimizing goals such as building muscle or losing weight found through internet research. Can allow to personalize their experience and keep track of daily intake over time by logging in and having a personal account.
+3) Create a website to make music an even more "social" experience. The idea is to make a social-networking-esque website that allow users to post what songs they recommend other's listen to. The idea is that the most up-voted songs will be on the top of the home page and so on. I can also expand this to allow users to post about other categories. I can also display a database of music information to help users find instant information on popular songs. 
