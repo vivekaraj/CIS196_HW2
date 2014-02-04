@@ -5,7 +5,7 @@ Note: I created a brand new repository for HW2. Therefore, there should be no co
 http://rocky-sea-9340.herokuapp.com/
 
 What I Did
-I used my newly acquired knowledge of HTML & CSS to re-create Google's homepage. 
+I used my newly acquired knowledge of HTML & CSS to re-create Google's homepage! I primarily modeled Jenny's LinkedIn example and also incorporated some information I learned by inspecting some of Google's elements. I created many different div's and classes to allow CSS to collectively style. This was actually pretty fun!
 
 Problems
 1) I accidentally referred to the same CSS header twice, which caused me to over-ride my code.
