@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<div class="navbar">
+	<ul class="nav">
+		<div class="floater">
+			<li><a class="nav-link" href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX%26partnerid%3Dogpy0">+You</a></li>
+			<li><a class="nav-link" href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1">Gmail</a></li>
+			<li><a class="nav-link" href="https://www.google.com/imghp?hl=en&tab=wi&ei=j7zsUveyC-ilsQSF7ICIBw&ved=0CAQQqi4oAg">Images</a></li>
+			<li><%= image_tag "box_matrix.png"%></li>
+			<li id="button2">
+				<input type="submit" value="Sign in">
+			</li>
+		</div>
+	</ul>
+</div>
+
+<div class="footer">
+	<ul class="nav2">
+		<li><a class="nav-link" href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX%26partnerid%3Dogpy0">Advertising</a></li>
+		<li><a class="nav-link" href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1">Business</a></li>
+		<li><a class="nav-link" href="https://www.google.com/imghp?hl=en&tab=wi&ei=j7zsUveyC-ilsQSF7ICIBw&ved=0CAQQqi4oAg">About</a></li>
+	</ul>
+	<ul class="nav3">
+		<li><a class="nav-link" href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/?tab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1">Settings</a></li>	
+		<li><a class="nav-link" href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX%26partnerid%3Dogpy0">Privacy & Terms</a></li>			
+	</ul>
+</div>
+
+<head>
+  <title>Hw2</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

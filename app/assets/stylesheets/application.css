@@ -1,0 +1,128 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+ body {
+ 	background-color: white;
+ 	font-family: Helvetica, Arial, sans-serif;
+ 	font-size: 13px;
+ 	line-height: 17px;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+
+ .nav {
+ 	position: fixed;
+ 	width: 100%;
+ 	height: 42px;
+ 	text-align: right; 	
+ 	padding-left: 330px;
+ }
+
+ ul {
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ .nav li {
+ 	display: inline;
+ 	float: left;
+ }
+
+ #top-logo a{
+ 	background-repeat: no-repeat;
+ 	color: transparent;
+ 	margin-top: 10px;
+ 	margin-left: 2%;
+ }
+
+ #right-links {
+ 	float: right;
+ 	margin-right: 2%;
+ }
+
+ .nav-link {
+ 	padding: 10px;
+ 	padding-top: 13px;
+ 	padding-bottom: 14px;
+ 	text-decoration: none;
+ 	color: #666;
+ 	float: right;
+ 	text-align: right;
+ }
+
+#button2 {
+	margin-top: 10px;
+	width: 410px;
+}
+
+#button2 input {
+	width: 70px;
+	height: 25px;
+	border-radius: 3px;
+	color: white;
+	font-size: 12px;
+	background-color: #0066CC;
+	border-color: #045a8b;
+	float: left;
+}
+
+.floater {
+	float: right;
+}
+
+.navbar {
+	text-align: right;
+}
+
+.nav3 {
+	position: fixed;
+ 	width: 100%;
+ 	height: 42px;
+ 	text-align: left;
+}
+
+.nav2 {
+	position: fixed;
+ 	width: 100%;
+ 	height: 42px;
+ 	text-align: left;
+ 	background-color: #F2F2F2;
+
+ }
+
+ .nav2 li {
+ 	display: inline;
+ 	float: left;
+ }
+
+.footer {
+ 	position: absolute;
+ 	width: 100%;
+ 	text-align: left; 	
+ 	bottom: 0;
+ 	padding-bottom: 40px;
+ 	border-top: 1px solid #ccc;
+ }
+
+ .nav3 li {
+ 	display: inline;
+ 	float: right;
+
+ }
+
+ img {
+ 	padding-top: 10px;
+ 	padding-right: 5px;
+ }
